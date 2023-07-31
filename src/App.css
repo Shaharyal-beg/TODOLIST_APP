@@ -1,0 +1,77 @@
+.App{
+    margin: 0 0 0 0.5vw;
+    padding: 0;
+    width: 98vw;
+    height: 97vh;
+    background-color: #F06292;
+    overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.main{
+    width: 35vw;
+    height: auto;
+    margin: 8vh 0 0 30vw;
+    background-color: #3C424A;
+    padding: 2vh 2vw;
+    text-align: center;
+    color: white;
+}
+.TodoForm{
+    width: 35vw;
+    height: 8vh;
+   
+}
+.TodoForm input{
+    width: 28vw;
+    height: 6vh;
+    margin: 1vh 0 0 0 ;
+    outline: none;
+    
+}
+
+.TodoForm button{
+    width: 5vw;
+    height: 6.5vh;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #3C424A;
+}
+.todolist{
+    width: 35vw;
+    min-height: 50vh;
+}
+.todo{
+    width: 35vw;
+    height: auto;
+    margin-bottom:2vh ;
+    display:block;
+    text-align: left;
+    margin: 0 0 0 1vw;
+}
+.item{
+    width: 32vw;
+    height: 6vh;
+    margin: 0 0 2vh 0vw;
+    display: flex;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+    align-items: center;
+}
+.item p{
+    min-width: 27vw;
+    color: white;
+}
+.item button{
+    cursor: pointer;
+    width: 10vw;
+    height: 6vh;
+    background-color:  #3C424A; 
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px 10px 10px 0;
+    text-decoration: underline;
+}
